@@ -16,8 +16,8 @@
         }
       }
     },
-    created() {
-      appui.register('clipboard', this);
+    mounted() {
+      appui.register('clipboard', this.getRef('clipboard'));
     }
   }
 })();
