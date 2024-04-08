@@ -22,6 +22,9 @@
     },
     created() {
       appui.register('clipboard-button', this);
+    },
+    beforeDestroy() {
+      appui.unregister('clipboard-button')
     }
   }
 })();
