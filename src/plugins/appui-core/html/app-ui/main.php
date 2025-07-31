@@ -3,5 +3,6 @@
   <bbn-clipboard :storage="true"
                   ref="clipboard"
                   @copy="onCopy"
-                  style="z-index: 13"/>
+                  :z-index="13"
+                  style="overflow: visible;"/>
 </div>
